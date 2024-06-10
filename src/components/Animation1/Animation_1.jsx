@@ -15,6 +15,8 @@ import { FaConnectdevelop } from "react-icons/fa6";
 import { GrTest } from "react-icons/gr";
 import { GrDeploy } from "react-icons/gr";
 
+//Adding this line for git activity
+
 //Animation 1 Component Export
 export default function Animation1Component() {
 
@@ -27,7 +29,7 @@ export default function Animation1Component() {
 
   //First UseEffect will start the animations timeline
   useEffect(() => {
-    
+
     tl.add({
       targets: '.circle-4',
       duration: timeDuration,
